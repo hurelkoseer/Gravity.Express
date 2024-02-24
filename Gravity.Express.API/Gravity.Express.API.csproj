@@ -7,7 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Finbuckle.MultiTenant" Version="6.13.1" />
+      <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="6.13.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.16" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Gravity.Express.Infrastructure\Gravity.Express.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
