@@ -10,3 +10,6 @@
 /Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Infrastructure/obj/Debug/net7.0/refint/Gravity.Express.Infrastructure.dll
 /Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.pdb
 /Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Infrastructure/obj/Debug/net7.0/ref/Gravity.Express.Infrastructure.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Domain.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Domain.pdb
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.csproj.CopyComplete
