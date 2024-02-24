@@ -1,0 +1,12 @@
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.deps.json
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.pdb
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.AssemblyReference.cache
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.AssemblyInfoInputs.cache
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.AssemblyInfo.cs
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.CoreCompileInputs.cache
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/refint/Gravity.Express.Application.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.pdb
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.Application/obj/Debug/net7.0/ref/Gravity.Express.Application.dll
