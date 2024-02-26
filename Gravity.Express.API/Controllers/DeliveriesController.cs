@@ -5,7 +5,6 @@ using Gravity.Express.Application.Cqrs.Delivery.Commands.CreateDelivery;
 using Gravity.Express.Application.Cqrs.Delivery.Queries.GetDeliveries;
 using Gravity.Express.Application.Filter;
 using Mediator;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Gravity.Express.API.Controllers;

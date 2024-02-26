@@ -15,6 +15,5 @@ using var host = Host.CreateDefaultBuilder(args)
                          services.AddHttpContextAccessor();
                          services.AddBackgroundTasks(hostContext.Configuration);
                      })
-                     //.AddCustomSerilog()
                      .Build();
 await host.RunAsync();

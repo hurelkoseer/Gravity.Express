@@ -2,9 +2,6 @@ using Gravity.Express.Application.Exceptions;
 using Gravity.Express.Infrastructure.Persistence;
 using Mediator;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using MassTransit;
-using Gravity.Express.Domain.Entities;
 
 namespace Gravity.Express.Application.Cqrs.Customer.Commands.CreateCustomer;
 

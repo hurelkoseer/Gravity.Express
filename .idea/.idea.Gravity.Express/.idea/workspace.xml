@@ -10,26 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751c9671-0008-4a94-88ca-6152fde150c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/DeliveriesControllerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/Gravity.Express.UnitTest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/Gravity.Express.UnitTest.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/Gravity.Express.UnitTest.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/Gravity.Express.UnitTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/Gravity.Express.UnitTest.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/Gravity.Express.UnitTest.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/Gravity.Express.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Gravity.Express.UnitTest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Gravity.Express.UnitTest.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Gravity.Express.UnitTest.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.UnitTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/Controllers/DeliveriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/Controllers/DeliveriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/Exceptions/ValidationFailedException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/Exceptions/ValidationFailedException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/Mapping/ITenantMapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/Mapping/TenantMapper.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +73,7 @@
     <setting file="mock:///Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.API/Controllers/DeliveriesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.API/Controllers/DeliveriesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.BackgroundTasks/Services/ScanFailedDeliveriesJobService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Gravity.Express.UnitTest/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -232,7 +218,7 @@
       <workItem from="1708796504225" duration="10702000" />
       <workItem from="1708814199704" duration="1750000" />
       <workItem from="1708815970653" duration="28535000" />
-      <workItem from="1708868034818" duration="32860000" />
+      <workItem from="1708868034818" duration="34692000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: taskV1-First commit">
       <option name="closed" value="true" />
@@ -298,7 +284,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708955098331</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <option name="closed" value="true" />
+      <created>1708958669796</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708958669796</updated>
+    </task>
+    <task id="LOCAL-00010" summary="t">
+      <option name="closed" value="true" />
+      <created>1708958795798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708958795798</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +327,9 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="commit" />
     <MESSAGE value="sieve" />
-    <option name="LAST_COMMIT_MESSAGE" value="sieve" />
+    <MESSAGE value="test" />
+    <MESSAGE value="t" />
+    <option name="LAST_COMMIT_MESSAGE" value="t" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,13 +342,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommandHandler.cs</url>
-          <line>22</line>
+          <line>19</line>
           <properties documentPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommandHandler.cs" initialLine="19" containingFunctionPresentation="Method 'Handle'">
             <startOffsets>
-              <option value="820" />
+              <option value="726" />
             </startOffsets>
             <endOffsets>
-              <option value="961" />
+              <option value="867" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
@@ -413,6 +417,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Gravity.Express.UnitTest/DeliveriesControllerTests.cs</url>
+          <line>62</line>
+          <properties documentPath="$PROJECT_DIR$/Gravity.Express.UnitTest/DeliveriesControllerTests.cs" initialLine="62" containingFunctionPresentation="Method 'Get_ShouldReturnPaginatedListOfDeliveries_WhenQueryIsSuccessful'">
+            <startOffsets>
+              <option value="2115" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2156" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
