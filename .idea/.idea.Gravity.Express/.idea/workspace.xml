@@ -9,378 +9,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751c9671-0008-4a94-88ca-6152fde150c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Gravity.Express/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/Controllers/ApiControllerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/Controllers/CustomersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/Controllers/DeliveriesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/Models/CreateCustomerRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/Models/CreateDeliveryRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/Services/HttpContextWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Finbuckle.MultiTenant.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/FluentValidation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Application.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Application.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/MassTransit.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/MassTransit.AspNetCoreIntegration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/MassTransit.RabbitMqTransport.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/MassTransit.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Mediator.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.UserSecrets.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Hosting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Logging.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Logging.Console.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Logging.Debug.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Logging.EventLog.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Logging.EventSource.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Options.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Microsoft.OpenApi.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/RabbitMQ.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/System.Diagnostics.EventLog.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/System.Text.Encodings.Web.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/System.Text.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommandResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Customer/Commands/CreateCustomer/CreateCustomerCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Commands/CreateDelivery/CreateDeliveryCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Commands/CreateDelivery/CreateDeliveryCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Commands/CreateDelivery/CreateDeliveryCommandResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Commands/CreateDelivery/CreateDeliveryCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/DependencyInjection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Exceptions/NotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Exceptions/ValidationFailedException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Mapping/ITenantMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Mapping/TenantMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Model/EntityItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/Consumers/DeliveryCreatedIntegrationEventConsumer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/Gravity.Express.BackgroundTasks.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/Services/ScanFailedDeliveriesJobService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/appsettings.Local.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Audit.EntityFramework.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Audit.NET.PostgreSql.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Audit.NET.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Azure.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Azure.Identity.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/EFCore.NamingConventions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Finbuckle.MultiTenant.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Finbuckle.MultiTenant.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Humanizer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/MassTransit.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/MassTransit.AspNetCoreIntegration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/MassTransit.RabbitMqTransport.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/MassTransit.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.CommandLine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.UserSecrets.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Hosting.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Hosting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Logging.Configuration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Logging.Console.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Logging.Debug.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Logging.EventLog.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Logging.EventSource.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Options.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Identity.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Mono.TextTemplating.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Npgsql.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/RabbitMQ.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.CodeDom.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Diagnostics.EventLog.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Memory.Data.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Security.Permissions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Text.Encodings.Web.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Text.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/apphost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/ref/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/refint/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Gravity.Express.BackgroundTasks.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Gravity.Express.BackgroundTasks.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Gravity.Express.BackgroundTasks.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Domain/Enums/DeliveryStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Domain/Enums/SyncState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/20240225133717_Initial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/20240225133717_Initial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/20240225144100_refactor.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/20240225144100_refactor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/Deliveries/DeliveryCreatedIntegrationEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/Gravity.Express.IntegrationEvent.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/ref/Gravity.Express.IntegrationEvent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/refint/Gravity.Express.IntegrationEvent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Gravity.Express.IntegrationEvent.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Gravity.Express.IntegrationEvent.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/Gravity.Express.IntegrationEvent.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.IntegrationEvent/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gravity.Express.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="751c9671-0008-4a94-88ca-6152fde150c5" name="Changes" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gravity.Express/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gravity.Express/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/Filters/MultiTenantActionFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/Filters/MultiTenantActionFilter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/Gravity.Express.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/Gravity.Express.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/apphost" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/ref/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/ref/Gravity.Express.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/refint/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/refint/Gravity.Express.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/Common/ErrorCodes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/Common/ErrorCodes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/Gravity.Express.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/Gravity.Express.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/ref/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/ref/Gravity.Express.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/refint/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/refint/Gravity.Express.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/Entities/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/Entities/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/Entities/Delivery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/Entities/Delivery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/Entities/ECommercePlatform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/Entities/Order.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/Gravity.Express.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/Gravity.Express.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/bin/Debug/net7.0/Gravity.Express.Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/bin/Debug/net7.0/Gravity.Express.Domain.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/bin/Debug/net7.0/Gravity.Express.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/bin/Debug/net7.0/Gravity.Express.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/bin/Debug/net7.0/Gravity.Express.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/bin/Debug/net7.0/Gravity.Express.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/Gravity.Express.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/ref/Gravity.Express.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/ref/Gravity.Express.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/refint/Gravity.Express.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Debug/net7.0/refint/Gravity.Express.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Gravity.Express.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Gravity.Express.Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Gravity.Express.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Gravity.Express.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Gravity.Express.Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/Gravity.Express.Domain.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Gravity.Express.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Gravity.Express.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/20240224233736_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/20240224233736_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Migrations/GravityExpressDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Persistence/GravityExpressDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Persistence/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Persistence/GravityExpressDbContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Persistence/AppDbContextFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Persistence/IGravityExpressDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/Persistence/IAppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Infrastructure.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Infrastructure.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.BackgroundTasks/obj/Debug/net7.0/Gravity.Express.BackgroundTasks.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/bin/Debug/net7.0/Gravity.Express.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/Gravity.Express.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/ref/Gravity.Express.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/ref/Gravity.Express.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/refint/Gravity.Express.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Debug/net7.0/refint/Gravity.Express.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Gravity.Express.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Gravity.Express.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Gravity.Express.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/Gravity.Express.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gravity.Express.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,6 +86,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eaf74182ad7c943aaf043fd9e7bbb1d564713c6bd276e62966aaa618e9/LoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ee149aeb8d25bcc6953bdee90f09527eca1ba479d65cc58532417285cc3/IPublishEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ee4384c148f5301ec6a3791f76c316598fbb1d6e4729476d139d5bf70df6d19/MassTransitHostOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.BackgroundTasks/Services/ScanFailedDeliveriesJobService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -578,7 +231,7 @@
       <workItem from="1708796504225" duration="10702000" />
       <workItem from="1708814199704" duration="1750000" />
       <workItem from="1708815970653" duration="28535000" />
-      <workItem from="1708868034818" duration="20886000" />
+      <workItem from="1708868034818" duration="27957000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: taskV1-First commit">
       <option name="closed" value="true" />
@@ -604,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708819362083</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1708909620237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708909620237</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1708948708448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708948708448</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +297,9 @@
     <MESSAGE value="Feat: taskV1-First commit" />
     <MESSAGE value="added nuget" />
     <MESSAGE value="add docker integration and ef migration process" />
-    <option name="LAST_COMMIT_MESSAGE" value="add docker integration and ef migration process" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,6 +387,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Gravity.Express.API/Filters/MultiTenantActionFilter.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/Gravity.Express.API/Filters/MultiTenantActionFilter.cs" initialLine="11" containingFunctionPresentation="Method 'OnActionExecuting'">
+            <startOffsets>
+              <option value="322" />
+            </startOffsets>
+            <endOffsets>
+              <option value="395" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

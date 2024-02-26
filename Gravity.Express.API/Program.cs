@@ -28,12 +28,11 @@ builder.Services.AddScoped<IContextWrapper, HttpContextWrapper>();
 builder.Services.AddScoped<MultiTenantActionFilter>();
 
 var app = builder.Build();
-
-app.UseMultiTenant();
+app.UseRouting();app.UseMultiTenant();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseRouting();
+
 
 if (app.Environment.IsDevelopment())
 {
