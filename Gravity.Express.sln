@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravity.Express.Integration
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravity.Express.BackgroundTasks", "Gravity.Express.BackgroundTasks\Gravity.Express.BackgroundTasks.csproj", "{C95E2647-1089-4524-A24D-0AA30DA509D7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B2A786DC-BCE9-48B3-9116-161E181E620E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gravity.Express.UnitTest", "Gravity.Express.UnitTest\Gravity.Express.UnitTest.csproj", "{50D5EE6E-99A4-4B63-BFF4-A33CEA971000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +54,10 @@ Global
 		{C95E2647-1089-4524-A24D-0AA30DA509D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C95E2647-1089-4524-A24D-0AA30DA509D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C95E2647-1089-4524-A24D-0AA30DA509D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D5EE6E-99A4-4B63-BFF4-A33CEA971000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D5EE6E-99A4-4B63-BFF4-A33CEA971000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D5EE6E-99A4-4B63-BFF4-A33CEA971000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D5EE6E-99A4-4B63-BFF4-A33CEA971000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{179460B2-594C-4AE8-B1F1-652E7EE4BAD6} = {7230B9D1-281A-439D-A5FF-9DC18E41EE33}
@@ -59,5 +67,6 @@ Global
 		{71C57306-AABA-4095-8CEA-00CD032D84E7} = {7230B9D1-281A-439D-A5FF-9DC18E41EE33}
 		{EF146083-7394-48D0-9B05-2EE7D2E494AC} = {7230B9D1-281A-439D-A5FF-9DC18E41EE33}
 		{C95E2647-1089-4524-A24D-0AA30DA509D7} = {7230B9D1-281A-439D-A5FF-9DC18E41EE33}
+		{50D5EE6E-99A4-4B63-BFF4-A33CEA971000} = {B2A786DC-BCE9-48B3-9116-161E181E620E}
 	EndGlobalSection
 EndGlobal
