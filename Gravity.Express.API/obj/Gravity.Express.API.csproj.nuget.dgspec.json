@@ -191,6 +191,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.16, )"
+            },
+            "Sieve": {
+              "target": "Package",
+              "version": "[2.5.5, )"
             }
           },
           "imports": [

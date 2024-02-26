@@ -10,7 +10,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="751c9671-0008-4a94-88ca-6152fde150c5" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Sieve.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Queries/GetDeliveries/GetDeliveriesQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Queries/GetDeliveries/GetDeliveriesQueryFilterConfigurations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Queries/GetDeliveries/GetDeliveriesQueryFilters.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Queries/GetDeliveries/GetDeliveriesQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Queries/GetDeliveries/GetDeliveriesQueryResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Cqrs/Delivery/Queries/GetDeliveries/GetDeliveriesQuerySortings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Filter/FilterModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Filter/FilterProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Filter/IFilterConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Filter/IFilterProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gravity.Express.Application/Mapping/MappingExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Gravity.Express/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Gravity.Express/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/Controllers/DeliveriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/Controllers/DeliveriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/bin/Debug/net7.0/Gravity.Express.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/Gravity.Express.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/ref/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/ref/Gravity.Express.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/refint/Gravity.Express.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Debug/net7.0/refint/Gravity.Express.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/Gravity.Express.API.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/Gravity.Express.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/Gravity.Express.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/bin/Debug/net7.0/Gravity.Express.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/Gravity.Express.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/ref/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/ref/Gravity.Express.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/refint/Gravity.Express.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Debug/net7.0/refint/Gravity.Express.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/Gravity.Express.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Gravity.Express.Application/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +99,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/17fd8d1671e325d2ab1877ce6b7f34fcc61cc5/Mediator.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/27ed37f4563f93de7aba98d791e6735e2e113d95f23d286415158b0e715ce3f/EFCoreStoreDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/33ff8730b1ad26e90b4f11a64b898db09b57e2421a281a48b1e64ef8ee375e/HttpContextExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -64,6 +114,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eaf74182ad7c943aaf043fd9e7bbb1d564713c6bd276e62966aaa618e9/LoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ee149aeb8d25bcc6953bdee90f09527eca1ba479d65cc58532417285cc3/IPublishEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ee4384c148f5301ec6a3791f76c316598fbb1d6e4729476d139d5bf70df6d19/MassTransitHostOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.API/Controllers/CustomersController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.API/Controllers/DeliveriesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.BackgroundTasks/Services/ScanFailedDeliveriesJobService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -209,7 +261,7 @@
       <workItem from="1708796504225" duration="10702000" />
       <workItem from="1708814199704" duration="1750000" />
       <workItem from="1708815970653" duration="28535000" />
-      <workItem from="1708868034818" duration="28890000" />
+      <workItem from="1708868034818" duration="31029000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: taskV1-First commit">
       <option name="closed" value="true" />
@@ -259,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708951557371</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1708952542010</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708952542010</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,10 +374,10 @@
           <line>27</line>
           <properties documentPath="$PROJECT_DIR$/Gravity.Express.API/Controllers/CustomersController.cs" initialLine="27" containingFunctionPresentation="Method 'Create'">
             <startOffsets>
-              <option value="917" />
+              <option value="889" />
             </startOffsets>
             <endOffsets>
-              <option value="918" />
+              <option value="890" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
@@ -375,17 +435,17 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Gravity.Express.API/Filters/MultiTenantActionFilter.cs</url>
-          <line>11</line>
-          <properties documentPath="$PROJECT_DIR$/Gravity.Express.API/Filters/MultiTenantActionFilter.cs" initialLine="11" containingFunctionPresentation="Method 'OnActionExecuting'">
+          <url>file://$PROJECT_DIR$/Gravity.Express.API/Controllers/DeliveriesController.cs</url>
+          <line>57</line>
+          <properties documentPath="$PROJECT_DIR$/Gravity.Express.API/Controllers/DeliveriesController.cs" initialLine="57" containingFunctionPresentation="Method 'Get'">
             <startOffsets>
-              <option value="322" />
+              <option value="2230" />
             </startOffsets>
             <endOffsets>
-              <option value="395" />
+              <option value="2231" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

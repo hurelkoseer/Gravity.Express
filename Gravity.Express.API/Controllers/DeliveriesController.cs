@@ -1,7 +1,11 @@
 using System.Net;
 using Gravity.Express.API.Models;
+using Gravity.Express.Application.Common.Models;
 using Gravity.Express.Application.Cqrs.Delivery.Commands.CreateDelivery;
+using Gravity.Express.Application.Cqrs.Delivery.Queries.GetDeliveries;
+using Gravity.Express.Application.Filter;
 using Mediator;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Gravity.Express.API.Controllers;
@@ -36,5 +40,22 @@ public class DeliveriesController : ApiControllerBase
         });
 
         return Ok(createDeliveryCommandResponse.Id);
+    }
+
+    /// <summary>
+    /// Retrieves a delivery by its unique identifier.
+    /// </summary>
+    /// <param name="id">The unique identifier of the delivery.</param>
+    /// <returns>
+    /// An <see cref="ActionResult{T}"/> containing the response for the delivery retrieval operation.
+    /// If successful, returns HTTP 200 (OK) with the country information; otherwise, returns an error response.
+    /// </returns>
+    //[Authorize]
+    [HttpGet]
+    [ProducesResponseType(typeof(PaginatedList<GetDeliveriesQueryResponse>), (int)HttpStatusCode.OK)]
+    public async Task<ActionResult<PaginatedList<GetDeliveriesQueryResponse>>> Get(
+        [FromQuery] FilterModel filterModel)
+    {
+        return await _mediator.Send(new GetDeliveriesQuery(filterModel));
     }
 }

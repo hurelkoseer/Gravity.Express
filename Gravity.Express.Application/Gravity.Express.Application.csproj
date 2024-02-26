@@ -19,6 +19,7 @@
       </PackageReference>
       <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.16" />
+      <PackageReference Include="Sieve" Version="2.5.5" />
     </ItemGroup>
 
     <ItemGroup>
@@ -27,7 +28,6 @@
       <Folder Include="Cqrs\Customer\Queries\" />
       <Folder Include="Cqrs\Delivery\Commands\DeleteDelivery\" />
       <Folder Include="Cqrs\Delivery\Commands\UpdateDelivery\" />
-      <Folder Include="Cqrs\Delivery\Queries\" />
     </ItemGroup>
 
     <ItemGroup>
