@@ -20,7 +20,7 @@ public class CustomersController : ApiControllerBase
     /// </summary>
     /// <param name="request">The request object containing customer information.</param>
     /// <returns>Returns the ID of the created customer.</returns>
-    // [Authorize(Operations.CreateScopeName)]
+    // [Authorize]
     [HttpPost]
     [ProducesResponseType(typeof(Guid), (int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.BadRequest)]
