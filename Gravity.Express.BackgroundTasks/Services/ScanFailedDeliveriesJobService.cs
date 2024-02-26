@@ -38,9 +38,9 @@ public class ScanFailedDeliveriesJobService : BackgroundService
     {
         using var scope = _serviceProvider.CreateScope();
 
-        var publishEndpoint = scope.ServiceProvider.GetService<IPublishEndpoint>();
+        var publishEndpoint = scope.ServiceProvider.GetRequiredService<IPublishEndpoint>();
 
-        var dbContext = scope.ServiceProvider.GetService<IAppDbContext>();
+        var dbContext = scope.ServiceProvider.GetRequiredService<IAppDbContext>();
 
         var failedDeliveries = await dbContext.Deliveries.IgnoreQueryFilters()
                                                 .Where(x => x.SyncState == SyncState.Failed && x.RetryCount <= 3)
