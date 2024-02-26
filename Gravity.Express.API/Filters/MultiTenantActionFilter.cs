@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace BinBin.Partnership.API.Filters;
+namespace Gravity.Express.API.Filters;
 
 public class MultiTenantActionFilter : IActionFilter
 {

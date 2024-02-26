@@ -9,12 +9,18 @@
     <ItemGroup>
       <PackageReference Include="Finbuckle.MultiTenant" Version="6.13.1" />
       <PackageReference Include="Finbuckle.MultiTenant.AspNetCore" Version="6.13.1" />
+      <PackageReference Include="Finbuckle.MultiTenant.EntityFrameworkCore" Version="6.13.1" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.16" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.16" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.16" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Gravity.Express.Application\Gravity.Express.Application.csproj" />
+      <ProjectReference Include="..\Gravity.Express.BackgroundTasks\Gravity.Express.BackgroundTasks.csproj" />
       <ProjectReference Include="..\Gravity.Express.Infrastructure\Gravity.Express.Infrastructure.csproj" />
     </ItemGroup>
 

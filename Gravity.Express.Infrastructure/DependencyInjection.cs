@@ -1,6 +1,4 @@
-using System.ComponentModel.DataAnnotations;
 using Audit.Core;
-using Audit.PostgreSql.Configuration;
 using Gravity.Express.Domain.Common;
 using Gravity.Express.Domain.Entities;
 using Gravity.Express.Infrastructure.Persistence;
@@ -20,10 +18,10 @@ public static class DependencyInjection
         Configuration.Setup()
                      .UsePostgreSql(config => config
                                               .ConnectionString(configuration["ConnectionString"])
-                                              .TableName("audit_logs")
-                                              .IdColumnName("id")
-                                              .DataColumn("data", DataType.JSON)
-                                              .LastUpdatedColumnName("last_updated_date"));
+                                              .TableName("AuditLogs")
+                                              .IdColumnName("Id")
+                                              .DataColumn("Data", DataType.JSON)
+                                              .LastUpdatedColumnName("LastUpdatedDate"));
 
         Configuration.Setup()
                      .UseEntityFramework(ef => ef
@@ -72,19 +70,19 @@ public static class DependencyInjection
 
         var connectionString = configuration["ConnectionString"];
 
-        services.AddDbContext<GravityExpressDbContext>(options =>
+        services.AddDbContext<AppDbContext>(options =>
         {
             options.UseNpgsql(
                 connectionString,
                 sqlOptions =>
                 {
-                    sqlOptions.MigrationsAssembly(typeof(GravityExpressDbContext).Assembly.FullName);
+                    sqlOptions.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName);
                     sqlOptions.EnableRetryOnFailure();
                 });
 
-            options.UseSnakeCaseNamingConvention();
+           // options.UseSnakeCaseNamingConvention();
         });
 
-        services.AddScoped<IGravityExpressDbContext>(provider => provider.GetRequiredService<GravityExpressDbContext>());
+        services.AddScoped<IAppDbContext>(provider => provider.GetRequiredService<AppDbContext>());
     }
 }

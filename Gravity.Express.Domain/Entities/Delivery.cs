@@ -1,24 +1,30 @@
 using Gravity.Express.Domain.Common;
+using Gravity.Express.Domain.Enums;
 
 namespace Gravity.Express.Domain.Entities;
 
-public class Delivery : EntityBase
+public class Delivery : EntityBase, IMultiTenant
 {
-    public Guid ECommercePlatformId { get; set; } // İlgili e-ticaret platformunun ID'si
+    public required Guid CustomerId { get; set; }
 
-    public Guid OrderId { get; set; } // İlgili siparişin ID'si
+    public required string SenderWarehouseAddress { get; set; }
 
-    public string DeliveryAddress { get; set; } // Teslimatın yapılacağı adres
+    public required string DeliveryAddress { get; set; }
 
-    public string Status { get; set; } // Teslimatın durumu, örneğin: Hazırlanıyor, Yolda, Teslim Edildi
+    public required string TrackingNumber { get; set; }
 
-    public string TrackingNumber { get; set; } // Teslimat için takip numarası
+    public int RetryCount { get; set; }
 
-    public DateTime EstimatedDeliveryDate { get; set; } // Tahmini teslimat tarihi
+    public required DeliveryStatus Status { get; set; }
 
-    public DateTime? ActualDeliveryDate { get; set; } // Gerçekleşen teslimat tarihi
+    public required SyncState SyncState { get; set; }
 
-    public Order Order { get; set; } // İlgili sipariş
+    public Customer Customer { get; set; }
 
-    public ECommercePlatform ECommercePlatform { get; set; } // İlgili e-ticaret platformu
+    public int TenantId { get; private set; }
+
+    public void SetTenantId(int tenantId)
+    {
+        TenantId = tenantId;
+    }
 }

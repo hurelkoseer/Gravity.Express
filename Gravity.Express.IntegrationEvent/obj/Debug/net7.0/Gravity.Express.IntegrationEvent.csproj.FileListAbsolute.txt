@@ -1,0 +1,12 @@
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.deps.json
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/bin/Debug/net7.0/Gravity.Express.IntegrationEvent.pdb
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.csproj.AssemblyReference.cache
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.AssemblyInfoInputs.cache
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.AssemblyInfo.cs
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.csproj.CoreCompileInputs.cache
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/refint/Gravity.Express.IntegrationEvent.dll
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/Gravity.Express.IntegrationEvent.pdb
+/Users/hurel.koseer/RiderProjects/Gravity.Express/Gravity.Express.IntegrationEvent/obj/Debug/net7.0/ref/Gravity.Express.IntegrationEvent.dll

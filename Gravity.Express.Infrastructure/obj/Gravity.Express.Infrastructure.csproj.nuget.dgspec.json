@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Finbuckle.MultiTenant": {
+              "target": "Package",
+              "version": "[6.13.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/hurel.koseer/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -115,6 +121,10 @@
               "target": "Package",
               "version": "[7.0.2, )"
             },
+            "Finbuckle.MultiTenant.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.13.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.16, )"
@@ -160,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/hurel.koseer/.dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }
