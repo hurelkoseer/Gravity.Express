@@ -48,7 +48,7 @@ public class DeliveriesController : ApiControllerBase
     /// <param name="id">The unique identifier of the delivery.</param>
     /// <returns>
     /// An <see cref="ActionResult{T}"/> containing the response for the delivery retrieval operation.
-    /// If successful, returns HTTP 200 (OK) with the country information; otherwise, returns an error response.
+    /// If successful, returns HTTP 200 (OK) with the delivery information; otherwise, returns an error response.
     /// </returns>
     //[Authorize]
     [HttpGet]
